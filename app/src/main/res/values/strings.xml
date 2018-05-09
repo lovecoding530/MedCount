@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Med Count</string>
+    <string name="title_home">Home</string>
+    <string name="title_barcode_history">Bar Code</string>
+    <string name="title_photo_history">Photo</string>
+    <string name="title_setting">Setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="scan_bar_code">Scan Bar Code</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="title_activity_scanner">ScannerActivity</string>
+    <string name="title_activity_terms">TermsActivity</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="title_activity_pattern">PatternActivity</string>
+    <string name="pattern_cancel">Cancel</string>
+    <string name="pattern_continue">Continue</string>
+    <string name="welcome">Welcome</string>
+    <string name="draw_unlock_pattern">Draw unlock pattern</string>
+    <string name="pattern_retry">RETRY</string>
+    <string name="pattern_confirm">CONFIRM</string>
+    <string name="draw_current_pattern">Draw current pattern.</string>
+    <string name="try_again">Try again.</string>
+    <string name="draw_new_pattern">Draw new pattern.</string>
+    <string name="draw_confirm_pattern">Draw confirm patterm.</string>
+
+    <string name="pref_key_personal_info">pref_key_personal_info</string>
+    <string name="pref_key_gender">pref_key_gender</string>
+    <string name="pref_key_security_pattern">pref_key_security_pattern</string>
+    <string name="pref_key_doctor_info">pref_key_doctor_info</string>
+    <string name="pref_key_age">pref_key_age</string>
+    <string name="pref_key_medic_name">pref_key_medic_name</string>
+    <string name="pref_key_doctor_email">pref_key_doctor_email</string>
+    <string name="send_report">Send Report</string>
+    <string name="ADS_text">If you need more help please call Acme addiction treatment center 1800-888-3434</string>
+</resources>

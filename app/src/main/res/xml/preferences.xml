@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="Personal Information"
+        android:key="@string/pref_key_personal_info">
+        <com.gregapp.medcount.Preferences.NumberPickerPreference
+            android:defaultValue="30"
+            android:key="@string/pref_key_age"
+            android:title="Age"
+            app:maxValue="100"
+            app:minValue="1"
+            app:valueAsSummary="true"
+            style="@style/Preference.DialogPreference.NumberPickerPreference"/>
+        <ListPreference
+            android:key="@string/pref_key_gender"
+            android:title="Gender"
+            android:summary="%s"
+            android:entries="@array/gender"
+            android:entryValues="@array/gender"/>
+        <com.gregapp.medcount.Preferences.MyEditTextPreference
+            android:key="@string/pref_key_medic_name"
+            android:title="Medication Name"
+            android:summary="%s"/>
+        <PreferenceScreen
+            android:title="Security"
+            android:key="@string/pref_key_security_pattern"
+            android:summary="Please set your pattern">
+            <intent android:action="com.gregapp.medcount.PatternActivity"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Doctor's Information"
+        android:key="@string/pref_key_doctor_info">
+        <com.gregapp.medcount.Preferences.MyEditTextPreference
+            android:key="@string/pref_key_doctor_email"
+            android:title="Doctor's email"
+            android:summary="Not entered"/>
+    </PreferenceCategory>
+</PreferenceScreen>

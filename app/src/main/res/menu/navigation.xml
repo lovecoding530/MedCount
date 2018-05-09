@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_36"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_barcode"
+        android:icon="@drawable/barcode_36"
+        android:title="@string/title_barcode_history" />
+
+    <item
+        android:id="@+id/navigation_photo"
+        android:icon="@drawable/photo_36"
+        android:title="@string/title_photo_history" />
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/setting_fill"
+        android:title="@string/title_setting" />
+
+</menu>

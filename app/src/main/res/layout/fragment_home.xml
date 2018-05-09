@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="24dp"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="144dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:src="@drawable/ic_medcount_196"/>
+
+    <Button
+        android:id="@+id/scanBarcodeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scan_bar_code"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:drawableLeft="@drawable/barcode_36"
+        android:drawableStart="@drawable/barcode_36"
+        />
+
+    <Button
+        android:id="@+id/takePhotoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="@string/take_photo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:drawableLeft="@drawable/photo_36"
+        android:drawableStart="@drawable/photo_36"
+        />
+
+    <Button
+        android:id="@+id/sendReportBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="@string/send_report"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:drawableLeft="@drawable/send_report_36"
+        android:drawableStart="@drawable/send_report_36"
+        />
+</LinearLayout>

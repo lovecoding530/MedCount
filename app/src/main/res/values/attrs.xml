@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="Theme">
+        <!-- Default style for NumberPickerPreference -->
+        <attr name="numberPickerPreferenceStyle" format="reference" />
+        <!-- Default style for TimePickerPreference -->
+        <attr name="timePickerPreferenceStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="NumberPickerPreference">
+        <attr name="minValue" format="integer" />
+        <attr name="maxValue" format="integer" />
+        <attr name="valueAsSummary" format="boolean" />
+        <attr name="summaryFormat" format="string" />
+        <attr name="descendantFocusability" format="integer">
+            <enum name="beforeDescendants" value="131072" />
+            <enum name="afterDescendants" value="262144" />
+            <enum name="blocksDescendants" value="393216" />
+        </attr>
+        <attr name="wrapSelectorWheel" format="boolean" />
+        <attr name="subtitleText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="TimePickerPreference">
+        <attr name="timeAsSummary" format="boolean" />
+        <attr name="timeFormat" format="enum">
+            <enum name="inherit" value="0" />
+            <enum name="hours12" value="1" />
+            <enum name="hours24" value="2" />
+            <enum name="custom" value="3" />
+        </attr>
+        <attr name="timeFormatString" format="string" />
+        <attr name="defaultHours" format="integer" />
+        <attr name="defaultMins" format="integer" />
+        <attr name="dialogTimeFormat" format="enum">
+            <enum name="inherit" value="0" />
+            <enum name="hours12" value="1" />
+            <enum name="hours24" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
